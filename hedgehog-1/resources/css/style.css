@@ -22,14 +22,8 @@ html {
     
 }
 .clearfix{zoom: 1}
-.clearfix{
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    
-}
+
+
 /*-----------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*-----------------------------------*/
@@ -194,7 +188,6 @@ header {
 }
 .hero-text-box {
     position: absolute;
-    width: 114px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -265,6 +258,7 @@ header {
 .scents-showcase {
     list-style: none;
     width: 100%;
+    display: inline-block;
 }
     
 .scents-showcase li {
@@ -279,6 +273,8 @@ header {
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    margin: -5px 0px;
+
 }
 
 .scent-photo img {
@@ -291,7 +287,7 @@ header {
 
 .scent-photo img:hover {
     opacity: 1;
-    transform: scale(1.03);
+    transform: scale(1.07);
 }
 
 
